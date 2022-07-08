@@ -29,7 +29,7 @@ export default () => {
     dev: process.env.VSF_NUXT_APP_ENV !== 'production',
     server: {
       port: process.env.VSF_NUXT_APP_PORT,
-      host: 'vuestorefront.local',
+      host: 'hatslogicvuestorefront.herokuapp.com',
     },
     head: {
       title: process.env.npm_package_name || '',
